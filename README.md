@@ -1,5 +1,5 @@
 # WARNING
-__THIS FORK IS NOT GOING TO BE MANTAINED, JUST WANTED TO TRY [BROWSERLESS](https://github.com/microlink/browserless) PERFORMANCE__
+__THIS FORK IS NOT GOING TO BE MANTAINED, JUST WANTED TO TRY [BROWSERLESS](https://github.com/microlinkhq/browserless) PERFORMANCE__
 
 ![](https://github.com/leonardiwagner/scrapedin/raw/master/logo.png)
 [![Build Status](https://travis-ci.org/leonardiwagner/scrapedin.svg?branch=master)](https://travis-ci.org/leonardiwagner/scrapedin)
