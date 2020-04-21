@@ -11,7 +11,7 @@ const agents = [
   ];
 
 module.exports = async ({ browser, cookies, url, puppeteerAuthenticate }) => {
-  const page = await browser.newPage()
+  const page = await browser.page()
 
   if(cookies) {
     await page.setCookie(...cookies)
