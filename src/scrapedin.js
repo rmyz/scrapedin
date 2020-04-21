@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer')
+const browserless = require('browserless')
 const login = require('./login')
 const profile = require('./profile/profile')
 const logger = require('./logger')
@@ -10,7 +10,7 @@ module.exports = async({ cookies, email, password, isHeadless, hasToLog, hasToGe
   logger.info('scrapedin', 'initializing')
 
   const args = Object.assign({ headless: isHeadless, args: ['--no-sandbox'] }, puppeteerArgs)
-  const browser = await puppeteer.launch(args)
+  const browser = await browserless(args)
 
   if(cookies) {
     logger.info('scrapedin', 'using cookies, login will be bypassed')
