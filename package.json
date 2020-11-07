@@ -1,6 +1,6 @@
 {
   "name": "scrapedin-browserless",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "fork from leonardiwagner/scrapedin using browserless",
   "keywords": [
     "linkedin",
@@ -18,8 +18,8 @@
   "author": "Sergi Romeu <rmyzdev@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "browserless": "^7.5.7",
-    "puppeteer": "^4.0.1",
+    "browserless": "^8.1.35",
+    "puppeteer": "^5.4.1",
     "winston": "^3.3.3"
   },
   "engines": {
